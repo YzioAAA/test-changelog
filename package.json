@@ -1,0 +1,28 @@
+{
+  "name": "test-changelog",
+  "version": "1.0.0",
+  "description": "用于changelog教学的仓库 啊啊啊啊啊啊啊啊啊啊啊啊啊啊",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YzioAAA/test-changelog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YzioAAA/test-changelog/issues"
+  },
+  "homepage": "https://github.com/YzioAAA/test-changelog#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
